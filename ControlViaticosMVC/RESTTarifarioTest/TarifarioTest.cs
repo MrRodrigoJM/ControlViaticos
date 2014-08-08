@@ -36,7 +36,7 @@ namespace RESTTarifarioTest
                 string error = readerError1.ReadToEnd();
                 JavaScriptSerializer jsError1 = new JavaScriptSerializer();
                 ValidationException excepcion = jsError1.Deserialize<ValidationException>(error);
-                Assert.AreEqual("El tarifario no existe.", excepcion.MensajeError);
+                Assert.AreEqual("El tarifario no existe .", excepcion.MensajeError);
             }
         }
 
