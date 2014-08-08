@@ -43,6 +43,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AprobarServicesTest", "Apro
 		{9B7B8D02-ABB8-4E32-B41F-826ED5865C00} = {9B7B8D02-ABB8-4E32-B41F-826ED5865C00}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TarifarioServiceTest", "TarifarioServiceTest\TarifarioServiceTest.csproj", "{7A4AFFEA-B750-42FF-9047-6B4F821FA2D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTTarifarioTest", "RESTTarifarioTest\RESTTarifarioTest.csproj", "{5DC62B41-B1BA-4F41-9BCC-91CFA98CB57A}"
+EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True
@@ -92,6 +96,14 @@ Global
 		{3DE072D5-D1C9-484F-8015-A78AC4F70174}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DE072D5-D1C9-484F-8015-A78AC4F70174}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DE072D5-D1C9-484F-8015-A78AC4F70174}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A4AFFEA-B750-42FF-9047-6B4F821FA2D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A4AFFEA-B750-42FF-9047-6B4F821FA2D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A4AFFEA-B750-42FF-9047-6B4F821FA2D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A4AFFEA-B750-42FF-9047-6B4F821FA2D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DC62B41-B1BA-4F41-9BCC-91CFA98CB57A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DC62B41-B1BA-4F41-9BCC-91CFA98CB57A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DC62B41-B1BA-4F41-9BCC-91CFA98CB57A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DC62B41-B1BA-4F41-9BCC-91CFA98CB57A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
